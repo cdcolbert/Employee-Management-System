@@ -22,3 +22,14 @@ CREATE TABLE employee (
   role_id INT NOT NULL,
   manager_id INT NOT NULL
 );
+
+INSERT INTO department (department)
+VALUES ("Call Desk"), ("Networking"), ("Service");
+
+INSERT INTO role (title, salary, department_id)
+VALUES ("Manager", 122000.00, 0100), ("Support Technician", 35000.00, 0526), ("Service Technician", 42000.00, 0644);
+
+INSERT INTO employee (first_name, last_name, role_id, manager_id)
+VALUES ("Corey", "Colbert", 0001, 0001), ("Meghan", "Colbert", 0002, 00002), ("Courtney", "Colbert", 0003, 00003);
+
+SELECT * FROM role;
