@@ -1,6 +1,8 @@
-# EMPLOYEE MANAGEMENT TOOL
+# Employee Management Tool
 
 This is a command line tool allowing management of business hierarchy using a SQL database. Users are able to view, add, and update departments, roles, and employees. Output is displayed and formatted in an easy-to-read table.
+
+
 
 # Installation & Operation
 
